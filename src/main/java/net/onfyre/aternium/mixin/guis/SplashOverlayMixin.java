@@ -1,4 +1,4 @@
-package net.onfyre.aternium.mixin;
+package net.onfyre.aternium.mixin.guis;
 
 import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.gui.screen.SplashOverlay;

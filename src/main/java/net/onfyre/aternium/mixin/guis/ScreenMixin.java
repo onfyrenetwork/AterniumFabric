@@ -1,4 +1,4 @@
-package net.onfyre.aternium.mixin;
+package net.onfyre.aternium.mixin.guis;
 
 import net.fabricmc.fabric.api.client.screen.v1.Screens;
 import net.minecraft.client.MinecraftClient;

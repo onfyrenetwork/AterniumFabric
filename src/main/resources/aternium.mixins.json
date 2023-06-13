@@ -10,9 +10,9 @@
   },
   "client": [
     "MinecraftClientMixin",
-    "ScreenMixin",
-    "SplashOverlayMixin",
-    "TitleScreenMixin",
+    "guis.ScreenMixin",
+    "guis.SplashOverlayMixin",
+    "guis.TitleScreenMixin",
     "optimization.SharedConstantsMixin",
     "rendering.GameRendererMixin"
   ]
