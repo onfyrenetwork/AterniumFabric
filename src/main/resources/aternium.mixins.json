@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.onfyre.aternium.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "MinecraftClientMixin",
+    "ScreenMixin",
+    "SplashOverlayMixin",
+    "TitleScreenMixin",
+    "optimization.SharedConstantsMixin",
+    "rendering.GameRendererMixin"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "mixins": [
+    "aternium.mixins.json"
+  ],
+  "schemaVersion": 1,
+  "id": "aternium",
+  "version": "${version}",
+  "name": "Aternium",
+  "description": "Minecraft client-side mod for performance improvements, cleaner UI and useful features.",
+  "authors": [
+    "NoahOnFyre"
+  ],
+  "contact": {
+    "website": "aternium.com",
+    "repo": "https://github.com/NoahOnFyre/Aterniumternium"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/aternium/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.onfyre.aternium.client.AterniumClient"
+    ],
+    "main": [
+      "net.onfyre.aternium.Aternium"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.17",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}
